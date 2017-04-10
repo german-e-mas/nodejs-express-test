@@ -1,0 +1,29 @@
+{
+  "name": "db_test",
+  "version": "1.0.0",
+  "description": "Getting started with NodeJS and Express Framework.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/german-e-mas/nodejs-express-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/german-e-mas/nodejs-express-test/issues"
+  },
+  "homepage": "https://github.com/german-e-mas/nodejs-express-test#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
